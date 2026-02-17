@@ -1,0 +1,25 @@
+// 1. Prueba de comentarios de una línea
+/* 2. Prueba de comentarios 
+   multilínea que deben ser ignorados 
+*/
+
+// 3. Identificadores y palabras clave
+int mi_variable_1 = 100;
+_temp_var = 0xFF; // Hexadecimal
+
+// 4. Literales numéricos
+float pi = 3.1415;
+double scientific = 1.2e-10;
+int hex_val = 0xABC123;
+
+// 5. Operadores lógicos y relacionales
+if (mi_variable_1 >= 50 && !error_found) {
+    mi_variable_1 = mi_variable_1 * 2 / (5 + 3);
+}
+
+/* 6. Strings con secuencias de escape 
+   Debe reconocer los saltos de línea y tabulaciones dentro del string */
+String mensaje = "Hola UVG:\n\t\"Ingenieria en Computacion\"\n";
+
+// 7. Prueba de error léxico con caracteres no definidos en las reglas
+# @ $
