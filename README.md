@@ -40,8 +40,8 @@ docker compose down
 Inside the container, navigate to your folder:
 
 ```bash
-cd /workspace/examples/tu-carpeta
-flex tu-archivo.l
+cd /workspace/examples/Erick
+flex laboratorio.l
 gcc lex.yy.c -o scanner
 ./scanner < input.txt
 ```
